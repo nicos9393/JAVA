@@ -55,4 +55,38 @@ if (notaAprobado="si") {alert("Estudia!")
 /*     let usuario= prompt("Ingrese sus usuario"); 
     while(usuario !="camila"){alert("usuario incorrecto")};
     usuario= prompt("ingrese el usuario"); */
-    
+ /*    let nombre = "nico"
+    console.log(nombre); */
+
+/*     clase 4  */
+/* function Persona (nombre,apellido,direccion) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.direccion = direccion;
+}
+
+const persona1 = new Persona("andres", "sandoval", "AI 318");
+const persona2 = new Persona("nico", "sandoval","Cesar Milsten");
+console.log(persona1.nombre); */
+/* 
+function Perritos (nombre, edad,raza) {
+    this.nombre = nombre;
+    this.edad = edad;
+    this.raza= raza;
+}
+const perrito1 = new Perritos ("Nina", 3 , "pichichu");
+const perrito2 = new Perritos ("Piru", 3 , "pichichu");
+console.log(perrito2); */
+class Persona { 
+    constructor(nombre, edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.hablando= hablando;
+    }
+hablar(){
+  this.hablando = true;
+}
+
+}
+const peronsa1 = new Persona ("nico", 28, false);
+console.log(persona1);

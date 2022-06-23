@@ -1,4 +1,5 @@
-let bienvenido = alert ("Bienvenido a Curso JS");
+
+let bienvenido = alert("Bienvenidos a Curso JS");
 let nombre = prompt ("Ingrese su nombre").toLocaleLowerCase();
 let intento = 1;
 
@@ -54,3 +55,19 @@ if (Number.isInteger(edad)) {
     alert("Favor ingrese datos correctos")
     
 }
+
+
+/* CALCULADORA DE PLAZO FIJO */
+
+let monto = parseInt (prompt("Ingrese Monto $"));
+let TNA = parseInt (prompt("Ingrese Ingrese TNA%"));
+let plazo = parseInt (prompt("Ingrese dias"));
+const resultado = function (monto,tna,plazo) {return monto*(tna*plazo/360)/100
+;
+}
+alert("Tu interes es: $"+ resultado(monto,TNA,plazo));
+
+
+
+  
+
